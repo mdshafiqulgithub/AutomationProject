@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GENERIC_MODULE/GENERIC_MODULE.iml" filepath="$PROJECT_DIR$/GENERIC_MODULE/GENERIC_MODULE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HealthInsurance/HealthInsurance.iml" filepath="$PROJECT_DIR$/HealthInsurance/HealthInsurance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WEB-AUTOMATION-FRAMEWORK.iml" filepath="$PROJECT_DIR$/WEB-AUTOMATION-FRAMEWORK.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Health Union]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="mac"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="63.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.uhone.com/"/>
+  <test verbose="0" name="United Health Care(failed)">
+    <classes>
+      <class name="TestHomePckg.TestRegistrationPage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="TestRegistration"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestHomePckg.TestRegistrationPage -->
+      <class name="TestHomePckg.TestInsurancePlan">
+        <methods>
+          <include name="TestAvailablePlan"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="TestHealthPlan"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestHomePckg.TestInsurancePlan -->
+      <class name="TestHomePckg.TestSearchItems">
+        <methods>
+          <include name="verifyDataReaderExcel"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialization"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestHomePckg.TestSearchItems -->
+      <class name="TestHomePckg.TestHomePage">
+        <methods>
+          <include name="TestURL"/>
+          <include name="afterEachTestMethod"/>
+          <include name="TestPhoneNUMBER"/>
+          <include name="TestHealthlink"/>
+          <include name="initialization"/>
+          <include name="extentSetup"/>
+          <include name="TestSearchPlan"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="TestTitleVerification"/>
+          <include name="Testlink"/>
+          <include name="TestAvailablePlans"/>
+          <include name="TestSearchByCode"/>
+          <include name="generateReport"/>
+          <include name="ShopForInsurance"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestHomePckg.TestHomePage -->
+    </classes>
+  </test> <!-- United Health Care(failed) -->
+</suite> <!-- Failed suite [Health Union] -->

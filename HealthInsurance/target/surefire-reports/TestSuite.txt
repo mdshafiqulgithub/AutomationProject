@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 1, Errors: 0, Skipped: 75, Time elapsed: 0.978 s <<< FAILURE! - in TestSuite
+setUp(TestHomePckg.TestHomePage)  Time elapsed: 0.726 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver
+
