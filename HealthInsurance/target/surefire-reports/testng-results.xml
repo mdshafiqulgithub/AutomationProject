@@ -1,58 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="13" failed="0" ignored="6" total="19" passed="0">
+<testng-results skipped="0" failed="1" ignored="6" total="19" passed="12">
   <reporter-output>
+    <line>
+      <![CDATA[TestHomePage: Test URL]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Title Verification]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Testlink]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Search Plan]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Search By Code]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Available Plans]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Healthlink]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Test Phone NUMBER]]>
+    </line>
+    <line>
+      <![CDATA[TestInsurancePlan: Test Available Plan]]>
+    </line>
+    <line>
+      <![CDATA[TestHomePage: Shop For Insurance]]>
+    </line>
+    <line>
+      <![CDATA[TestInsurancePlan: Test Health Plan]]>
+    </line>
+    <line>
+      <![CDATA[TestRegistrationPage: Test Registration]]>
+    </line>
+    <line>
+      <![CDATA[TestSearchItems: verify Data Reader Excel]]>
+    </line>
   </reporter-output>
-  <suite name="Health Union" duration-ms="109" started-at="2018-05-08T15:31:31Z" finished-at="2018-05-08T15:31:31Z">
+  <suite name="Health Union" duration-ms="154720" started-at="2018-05-16T23:14:03Z" finished-at="2018-05-16T23:16:37Z">
     <groups>
     </groups>
-    <test name="United Health Care" duration-ms="109" started-at="2018-05-08T15:31:31Z" finished-at="2018-05-08T15:31:31Z">
+    <test name="United Health Care" duration-ms="154720" started-at="2018-05-16T23:14:03Z" finished-at="2018-05-16T23:16:37Z">
       <class name="TestHomePckg.TestSearchItems">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestSearchItems@59906517]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestSearchItems@59906517]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestSearchItems@59906517]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="verifyDataReaderExcel()[pri:11, instance:TestHomePckg.TestSearchItems@59906517]" name="verifyDataReaderExcel" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDataReaderExcel -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestSearchItems@59906517]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestSearchItems@59906517]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- TestHomePckg.TestSearchItems -->
-      <class name="TestHomePckg.TestHomePage">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="extentSetup" is-config="true" duration-ms="171" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1d2adfbe]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentSetup -->
-        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="54" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestSearchItems@cb51256]" name="setUp" is-config="true" duration-ms="2891" started-at="2018-05-16T19:16:34Z" finished-at="2018-05-16T19:16:37Z">
           <params>
             <param index="0">
               <value>
@@ -90,393 +84,999 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestSearchItems@cb51256]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestSearchItems.verifyDataReaderExcel() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestSearchItems@cb51256]" name="initialization" is-config="true" duration-ms="1" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="TestURL()[pri:1, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestURL" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="verifyDataReaderExcel()[pri:11, instance:TestHomePckg.TestSearchItems@cb51256]" name="verifyDataReaderExcel" duration-ms="245" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestSearchItems: verify Data Reader Excel]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDataReaderExcel -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestSearchItems@cb51256]" name="afterEachTestMethod" is-config="true" duration-ms="46" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDataReaderExcel status=SUCCESS method=TestSearchItems.verifyDataReaderExcel()[pri:11, instance:TestHomePckg.TestSearchItems@cb51256] output=TestSearchItems: verify Data Reader Excel]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestSearchItems@cb51256]" name="cleanUp" is-config="true" duration-ms="109" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TestHomePckg.TestSearchItems -->
+      <class name="TestHomePckg.TestHomePage">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="extentSetup" is-config="true" duration-ms="191" started-at="2018-05-16T19:14:02Z" finished-at="2018-05-16T19:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@411341bd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="4303" started-at="2018-05-16T19:14:03Z" finished-at="2018-05-16T19:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="4" started-at="2018-05-16T19:14:07Z" finished-at="2018-05-16T19:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestURL() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="30" started-at="2018-05-16T19:14:07Z" finished-at="2018-05-16T19:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="TestURL()[pri:1, instance:TestHomePckg.TestHomePage@45820e51]" name="TestURL" duration-ms="1027" started-at="2018-05-16T19:14:07Z" finished-at="2018-05-16T19:14:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test URL]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestURL -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="411" started-at="2018-05-16T19:14:08Z" finished-at="2018-05-16T19:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestURL status=SUCCESS method=TestHomePage.TestURL()[pri:1, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test URL]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="109" started-at="2018-05-16T19:14:08Z" finished-at="2018-05-16T19:14:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="2828" started-at="2018-05-16T19:14:08Z" finished-at="2018-05-16T19:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="1" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestTitleVerification() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="TestTitleVerification()[pri:2, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestTitleVerification" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestTitleVerification()[pri:2, instance:TestHomePckg.TestHomePage@45820e51]" name="TestTitleVerification" duration-ms="8" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:11Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Title Verification]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestTitleVerification -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="72" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestTitleVerification status=SUCCESS method=TestHomePage.TestTitleVerification()[pri:2, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Title Verification]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="109" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3032" started-at="2018-05-16T19:14:11Z" finished-at="2018-05-16T19:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="Testlink()[pri:3, instance:TestHomePckg.TestHomePage@42d8062c]" name="Testlink" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.Testlink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="Testlink()[pri:3, instance:TestHomePckg.TestHomePage@45820e51]" name="Testlink" duration-ms="33" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Testlink]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Testlink -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testlink status=SUCCESS method=TestHomePage.Testlink()[pri:3, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Testlink]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="108" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="TestSearchPlan()[pri:4, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestSearchPlan" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="2950" started-at="2018-05-16T19:14:15Z" finished-at="2018-05-16T19:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestSearchPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="TestSearchPlan()[pri:4, instance:TestHomePckg.TestHomePage@45820e51]" name="TestSearchPlan" duration-ms="44" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Search Plan]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestSearchPlan -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="37" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestSearchPlan status=SUCCESS method=TestHomePage.TestSearchPlan()[pri:4, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Search Plan]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="109" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3011" started-at="2018-05-16T19:14:18Z" finished-at="2018-05-16T19:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-16T19:14:21Z" finished-at="2018-05-16T19:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestSearchByCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="TestSearchByCode()[pri:5, instance:TestHomePckg.TestHomePage@45820e51]" name="TestSearchByCode" duration-ms="17714" started-at="2018-05-16T19:14:21Z" finished-at="2018-05-16T19:14:39Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="TestSearchByCode()[pri:5, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestSearchByCode" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Search By Code]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestSearchByCode -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:21Z" finished-at="2018-05-16T19:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="44" started-at="2018-05-16T19:14:39Z" finished-at="2018-05-16T19:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestSearchByCode status=SUCCESS method=TestHomePage.TestSearchByCode()[pri:5, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Search By Code]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="135" started-at="2018-05-16T19:14:39Z" finished-at="2018-05-16T19:14:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3137" started-at="2018-05-16T19:14:39Z" finished-at="2018-05-16T19:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-16T19:14:42Z" finished-at="2018-05-16T19:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestAvailablePlans() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="TestAvailablePlans()[pri:6, instance:TestHomePckg.TestHomePage@45820e51]" name="TestAvailablePlans" duration-ms="13830" started-at="2018-05-16T19:14:42Z" finished-at="2018-05-16T19:14:56Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="TestAvailablePlans()[pri:6, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestAvailablePlans" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Available Plans]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestAvailablePlans -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:42Z" finished-at="2018-05-16T19:14:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2018-05-16T19:14:56Z" finished-at="2018-05-16T19:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAvailablePlans status=SUCCESS method=TestHomePage.TestAvailablePlans()[pri:6, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Available Plans]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="121" started-at="2018-05-16T19:14:56Z" finished-at="2018-05-16T19:14:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="TestHealthlink()[pri:7, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestHealthlink" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3194" started-at="2018-05-16T19:14:56Z" finished-at="2018-05-16T19:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:14:59Z" finished-at="2018-05-16T19:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestHealthlink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="1" started-at="2018-05-16T19:14:59Z" finished-at="2018-05-16T19:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="FAIL" signature="TestHealthlink()[pri:7, instance:TestHomePckg.TestHomePage@45820e51]" name="TestHealthlink" duration-ms="40049" started-at="2018-05-16T19:14:59Z" finished-at="2018-05-16T19:15:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".btn.lightblue"}  (Session info: chrome=66.0.3359.139)  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'shafiqulmcbk.T-mobile.com', ip: 'fe80:0:0:0:10af:65c9:7485:e00a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/7w/mw95n_7j4bd...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}Session ID: 5f1c5d0bb52428aafa9c52f048faa29d*** Element info: {Using=css selector, value=.btn.lightblue}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".btn.lightblue"}  (Session info: chrome=66.0.3359.139)  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'shafiqulmcbk.T-mobile.com', ip: 'fe80:0:0:0:10af:65c9:7485:e00a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/7w/mw95n_7j4bd...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}Session ID: 5f1c5d0bb52428aafa9c52f048faa29d*** Element info: {Using=css selector, value=.btn.lightblue}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy11.isEnabled(Unknown Source)at HomeMainPackage.HealthHomePage.isHealthLinkDisplayed(HealthHomePage.java:110)at TestHomePckg.TestHomePage.TestHealthlink(TestHomePage.java:105)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Healthlink]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestHealthlink -->
-        <test-method status="SKIP" signature="TestPhoneNUMBER()[pri:8, instance:TestHomePckg.TestHomePage@42d8062c]" name="TestPhoneNUMBER" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="1867" started-at="2018-05-16T19:15:39Z" finished-at="2018-05-16T19:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestHealthlink status=FAILURE method=TestHomePage.TestHealthlink()[pri:7, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Healthlink]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="324" started-at="2018-05-16T19:15:41Z" finished-at="2018-05-16T19:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3916" started-at="2018-05-16T19:15:41Z" finished-at="2018-05-16T19:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.TestPhoneNUMBER() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="TestPhoneNUMBER()[pri:8, instance:TestHomePckg.TestHomePage@45820e51]" name="TestPhoneNUMBER" duration-ms="41" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Test Phone NUMBER]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestPhoneNUMBER -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="31" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestPhoneNUMBER status=SUCCESS method=TestHomePage.TestPhoneNUMBER()[pri:8, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Test Phone NUMBER]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="110" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="setUp" is-config="true" duration-ms="3177" started-at="2018-05-16T19:15:59Z" finished-at="2018-05-16T19:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="initialization" is-config="true" duration-ms="1" started-at="2018-05-16T19:16:02Z" finished-at="2018-05-16T19:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:16:02Z" finished-at="2018-05-16T19:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestHomePage.ShopForInsurance() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="ShopForInsurance()[pri:9, instance:TestHomePckg.TestHomePage@42d8062c]" name="ShopForInsurance" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="ShopForInsurance()[pri:9, instance:TestHomePckg.TestHomePage@45820e51]" name="ShopForInsurance" duration-ms="33" started-at="2018-05-16T19:16:02Z" finished-at="2018-05-16T19:16:02Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestHomePage: Shop For Insurance]]>
+            </line>
           </reporter-output>
         </test-method> <!-- ShopForInsurance -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="afterEachTestMethod" is-config="true" duration-ms="24" started-at="2018-05-16T19:16:02Z" finished-at="2018-05-16T19:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShopForInsurance status=SUCCESS method=TestHomePage.ShopForInsurance()[pri:9, instance:TestHomePckg.TestHomePage@45820e51] output=TestHomePage: Shop For Insurance]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="initialization()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="initialization" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="cleanUp" is-config="true" duration-ms="108" started-at="2018-05-16T19:16:02Z" finished-at="2018-05-16T19:16:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:TestHomePckg.TestHomePage@42d8062c]" name="generateReport" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:TestHomePckg.TestHomePage@45820e51]" name="generateReport" is-config="true" duration-ms="40" started-at="2018-05-16T19:16:37Z" finished-at="2018-05-16T19:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- TestHomePckg.TestHomePage -->
       <class name="TestHomePckg.TestInsurancePlan">
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="setUp" is-config="true" duration-ms="2871" started-at="2018-05-16T19:15:45Z" finished-at="2018-05-16T19:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:15:48Z" finished-at="2018-05-16T19:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestInsurancePlan.TestAvailablePlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestAvailablePlan()[pri:8, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="TestAvailablePlan" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="TestAvailablePlan()[pri:8, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="TestAvailablePlan" duration-ms="10763" started-at="2018-05-16T19:15:48Z" finished-at="2018-05-16T19:15:59Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestInsurancePlan: Test Available Plan]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestAvailablePlan -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="37" started-at="2018-05-16T19:15:59Z" finished-at="2018-05-16T19:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAvailablePlan status=SUCCESS method=TestInsurancePlan.TestAvailablePlan()[pri:8, instance:TestHomePckg.TestInsurancePlan@42d8062c] output=TestInsurancePlan: Test Available Plan]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="cleanUp" is-config="true" duration-ms="126" started-at="2018-05-16T19:15:59Z" finished-at="2018-05-16T19:15:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="setUp" is-config="true" duration-ms="2849" started-at="2018-05-16T19:16:03Z" finished-at="2018-05-16T19:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-16T19:16:05Z" finished-at="2018-05-16T19:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestInsurancePlan.TestHealthPlan() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="TestHealthPlan()[pri:9, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="TestHealthPlan" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="TestHealthPlan()[pri:9, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="TestHealthPlan" duration-ms="2810" started-at="2018-05-16T19:16:05Z" finished-at="2018-05-16T19:16:08Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestInsurancePlan: Test Health Plan]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestHealthPlan -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="afterEachTestMethod" is-config="true" duration-ms="30" started-at="2018-05-16T19:16:08Z" finished-at="2018-05-16T19:16:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestHealthPlan status=SUCCESS method=TestInsurancePlan.TestHealthPlan()[pri:9, instance:TestHomePckg.TestInsurancePlan@42d8062c] output=TestInsurancePlan: Test Health Plan]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestInsurancePlan@6043cd28]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestInsurancePlan@42d8062c]" name="cleanUp" is-config="true" duration-ms="125" started-at="2018-05-16T19:16:08Z" finished-at="2018-05-16T19:16:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- TestHomePckg.TestInsurancePlan -->
       <class name="TestHomePckg.TestRegistrationPage">
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestRegistrationPage@cb51256]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestRegistrationPage@cb51256]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePckg.TestRegistrationPage@6043cd28]" name="setUp" is-config="true" duration-ms="3256" started-at="2018-05-16T19:16:08Z" finished-at="2018-05-16T19:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.uhone.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="TestRegistration()[pri:10, instance:TestHomePckg.TestRegistrationPage@cb51256]" name="TestRegistration" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/shafiqul/Testing Training/PeopleNTECHT/SeleniumTraining2018_March/WEB-AUTOMATION-FRAMEWORK/HealthInsurance/../Generic/driver/chromedriverat com.google.common.base.Preconditions.checkState(Preconditions.java:534)at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)at base.CommonAPI.getLocalDriver(CommonAPI.java:139)at base.CommonAPI.setUp(CommonAPI.java:122)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="TestRegistration()[pri:10, instance:TestHomePckg.TestRegistrationPage@6043cd28]" name="TestRegistration" duration-ms="22208" started-at="2018-05-16T19:16:12Z" finished-at="2018-05-16T19:16:34Z">
           <reporter-output>
+            <line>
+              <![CDATA[TestRegistrationPage: Test Registration]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestRegistration -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:TestHomePckg.TestRegistrationPage@cb51256]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:TestHomePckg.TestRegistrationPage@6043cd28]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-16T19:16:12Z" finished-at="2018-05-16T19:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestHomePckg.TestRegistrationPage.TestRegistration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestRegistrationPage@cb51256]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-05-08T11:31:31Z" finished-at="2018-05-08T11:31:31Z">
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:TestHomePckg.TestRegistrationPage@6043cd28]" name="afterEachTestMethod" is-config="true" duration-ms="21" started-at="2018-05-16T19:16:34Z" finished-at="2018-05-16T19:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestRegistration status=SUCCESS method=TestRegistrationPage.TestRegistration()[pri:10, instance:TestHomePckg.TestRegistrationPage@6043cd28] output=TestRegistrationPage: Test Registration]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestHomePckg.TestRegistrationPage@6043cd28]" name="cleanUp" is-config="true" duration-ms="126" started-at="2018-05-16T19:16:34Z" finished-at="2018-05-16T19:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
       </class> <!-- TestHomePckg.TestRegistrationPage -->
     </test> <!-- United Health Care -->
   </suite> <!-- Health Union -->

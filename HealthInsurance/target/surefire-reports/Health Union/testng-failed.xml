@@ -10,59 +10,16 @@
   <parameter name="url" value="https://www.uhone.com/"/>
   <test verbose="0" name="United Health Care(failed)">
     <classes>
-      <class name="TestHomePckg.TestRegistrationPage">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="TestRegistration"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- TestHomePckg.TestRegistrationPage -->
-      <class name="TestHomePckg.TestInsurancePlan">
-        <methods>
-          <include name="TestAvailablePlan"/>
-          <include name="afterEachTestMethod"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="TestHealthPlan"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- TestHomePckg.TestInsurancePlan -->
-      <class name="TestHomePckg.TestSearchItems">
-        <methods>
-          <include name="verifyDataReaderExcel"/>
-          <include name="afterEachTestMethod"/>
-          <include name="initialization"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- TestHomePckg.TestSearchItems -->
       <class name="TestHomePckg.TestHomePage">
         <methods>
-          <include name="TestURL"/>
           <include name="afterEachTestMethod"/>
-          <include name="TestPhoneNUMBER"/>
           <include name="TestHealthlink"/>
           <include name="initialization"/>
+          <include name="generateReport"/>
           <include name="extentSetup"/>
-          <include name="TestSearchPlan"/>
+          <include name="setUp"/>
           <include name="startExtent"/>
           <include name="cleanUp"/>
-          <include name="TestTitleVerification"/>
-          <include name="Testlink"/>
-          <include name="TestAvailablePlans"/>
-          <include name="TestSearchByCode"/>
-          <include name="generateReport"/>
-          <include name="ShopForInsurance"/>
-          <include name="setUp"/>
         </methods>
       </class> <!-- TestHomePckg.TestHomePage -->
     </classes>
