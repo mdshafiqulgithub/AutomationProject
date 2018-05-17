@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="GENERIC_MODULE" />
         <module name="HealthInsurance" />
+        <module name="RESTAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="GENERIC_MODULE" target="1.8" />
       <module name="HealthInsurance" target="1.8" />
+      <module name="RESTAPI" target="1.8" />
       <module name="WEB-AUTOMATION-FRAMEWORK" target="1.8" />
     </bytecodeTargetLevel>
   </component>

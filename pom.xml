@@ -12,6 +12,7 @@
     <modules>
         <module>GENERIC_MODULE</module>
         <module>HealthInsurance</module>
+        <module>RESTAPI</module>
 
     </modules>
 
@@ -104,8 +105,17 @@
                 <version>v4-rev516-1.23.0</version>
             </dependency>
 
+            <!--Rest Assured-->
+
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+
 
         </dependencies>
+
 
     </dependencyManagement>
 
