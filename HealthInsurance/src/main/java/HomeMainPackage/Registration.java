@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class Registration extends CommonAPI {
+public class Registration extends CommonAPI
+{
 
     public void HealthInsuranceRegistration() throws InterruptedException
     {
