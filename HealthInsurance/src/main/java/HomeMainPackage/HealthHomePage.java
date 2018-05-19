@@ -23,8 +23,12 @@ public class HealthHomePage extends CommonAPI
     public static WebElement FindDoctor;
     @FindBy(id = "#link_4")
     public static WebElement WhyUs;
-    @FindBy(css=".btn.lightblue")
+
+
+    //@FindBy(css=".btn.lightblue")
+   @FindBy(xpath = "//a[@class='btn btn-sm blue' and @title='Let Us Help You Find A Plan']")
     public static WebElement FindPlanLink;
+
     @FindBy(css= ".phonenumber")
     public static WebElement Telephone;
     @FindBy(xpath = "//a[@id='link_1'and @type='button']")
@@ -39,7 +43,8 @@ public class HealthHomePage extends CommonAPI
     }
 
     //Title Verification
-    public String TitleVerification() {
+    public String TitleVerification()
+    {
         String Title = driver.getTitle();
         return Title;
     }
